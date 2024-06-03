@@ -1,6 +1,6 @@
 # Support system for doing thesis
 ## Description:
-A system that supports students doing their theses is designed as a chatbot. Some of the main questions are:
+A system that supports students doing their theses is designed as a chatbot.Aim at students in the information technology faculty of UET. Some of the main functions are:
 - Searching for papers and theses
 - Suggest teacher
 - Suggest thesis's topic.
@@ -8,8 +8,8 @@ A system that supports students doing their theses is designed as a chatbot. Som
 - Answer questions about doing a thesis: qualification, start date, end date,...
 ## Commponent
 - Crawler: Crawler for getting data.
-- Data: Data use in system. The full data can find at [Link](https://huggingface.co/datasets/VictorJuiz/thesis)
-  - Teacher_UET: Teacher of the information technology faculty at UET
+- Data: Data use in the system. The full data can find at [Link](https://huggingface.co/datasets/VictorJuiz/thesis)
+  - Teacher_UET: Teacher at the information technology faculty of UET
   - Paper_UET: Papers's of UET
   - Thesis_UET: Theses's of UET
   - Thesis_HUST: Theses's of HUST
@@ -20,7 +20,7 @@ A system that supports students doing their theses is designed as a chatbot. Som
   - System_generate_test: Create a dataset to evaluate the generated answers for topic suggestions.
   - Embedding: Create a dataset to evaluate the embedding and reranking model.
 ## Evaluate
-- Retrival:
+- Retrieval:
   - Consin similarity loss: 0.002/1
 - Generate:
   - Context Relevant: 1/1
