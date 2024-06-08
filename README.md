@@ -26,3 +26,6 @@ A system that supports students doing their theses is designed as a chatbot.Aim 
   - Context Relevant: 1/1
   - Answer Relevant: 0.6-0.9/1
   - Grounded: 1/1
+## Example
+Suggest thesis topic
+![alt text](https://github.com/leson207/Support-system-for-doing-theses/blob/main/Report/Test_suggest_thesis.png?raw=true)
